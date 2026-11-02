@@ -1,0 +1,15 @@
+{
+  "title": "WABAD data accompanying adaptive ecoacoustic windowing",
+  "creator": "Thomas Napier",
+  "status": "planned",
+  "zenodo_record_url": null,
+  "doi": null,
+  "version": null,
+  "archive_filename": null,
+  "archive_sha256": null,
+  "expected_extracted_root": "data/WABAD",
+  "paper_example_recording": "ARD_20211027_072000.wav",
+  "paper_example_audio": "ARD/recordings/ARD_20211027_072000.wav",
+  "paper_example_annotations": "ARD/annotations/ARD_20211027_072000.txt",
+  "notes": "The author will supply the study WABAD data via Zenodo. Complete the null fields after the record and archive are assigned. Paths describe the intended release layout; adapt config paths if original annotation names are retained."
+}

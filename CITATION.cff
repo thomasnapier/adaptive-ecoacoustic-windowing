@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and WABAD dataset; this metadata describes the draft software package."
+type: software
+title: "Adaptive ecoacoustic windowing"
+version: 0.1.0
+authors:
+  - family-names: Napier
+    given-names: Thomas
+  - family-names: Ahn
+    given-names: Euijoon
+  - family-names: Allen-Ankins
+    given-names: Slade
+  - family-names: Schwarzkopf
+    given-names: Lin
+  - family-names: Lee
+    given-names: Ickjai
+abstract: "Class-agnostic time-frequency event proposals through fine-band drift grouping and Gaussian mixture modelling."
+keywords:
+  - ecoacoustics
+  - unsupervised learning
+  - acoustic event detection
+  - passive acoustic monitoring

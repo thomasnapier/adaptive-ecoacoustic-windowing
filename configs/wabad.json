@@ -1,0 +1,17 @@
+{
+  "data_root": "../data/WABAD",
+  "output_dir": "../outputs/wabad",
+  "save_plots": true,
+  "save_drift_plots": true,
+  "resume": true,
+  "parameters": {
+    "TARGET_SR": 22050,
+    "FMIN": 200.0,
+    "FMAX": 10000.0,
+    "WINDOW_S": 0.25,
+    "HOP_S": 0.125,
+    "N_FINE_BANDS": 20,
+    "GMM_MIN_EVENT_POSTERIOR": 0.5,
+    "GT_IOU_THRESHOLD": 0.3
+  }
+}

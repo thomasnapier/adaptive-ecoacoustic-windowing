@@ -1,0 +1,91 @@
+{
+  "GT_IOU_THRESHOLD": 0.3,
+  "GT_TEMPORAL_HIT_IOU_THRESHOLD": 0.1,
+  "GT_FREQUENCY_HIT_IOU_THRESHOLD": 0.1,
+  "TEMPORAL_EVAL_HOP_S": 0.125,
+  "GRID_GMM_MIN_EVENT_POSTERIOR": [
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55
+  ],
+  "GRID_GMM_SMOOTH_LABELS_K": [
+    1,
+    3,
+    5
+  ],
+  "GRID_GMM_MERGE_GAP_WINDOWS": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "GRID_GMM_MIN_EVENT_WINDOWS": [
+    1,
+    2
+  ],
+  "GRID_GMM_USE_LOG_DRIFT": [
+    false,
+    true
+  ],
+  "GRID_GMM_MIN_EVENT_AREA_Q": [
+    null,
+    0.05,
+    0.1
+  ],
+  "PROXY_CORR_WEIGHT": 0.8,
+  "PROXY_PEAK_F1_WEIGHT": 0.2,
+  "PROXY_BOX_DENSITY_PENALTY": 0.03,
+  "TARGET_SR": 22050,
+  "WINDOW_S": 0.25,
+  "HOP_S": 0.125,
+  "N_FFT": 1024,
+  "HOP_LENGTH": 256,
+  "N_MELS_FULL": 128,
+  "FMIN": 200.0,
+  "FMAX": 10000.0,
+  "N_FINE_BANDS": 20,
+  "BAND_SCALE": "mel",
+  "DRIFT_SMOOTH_K": 7,
+  "PEAK_K_MAD": 2.5,
+  "PEAK_MIN_SEP_WINDOWS": 2,
+  "SIMILARITY_MODE": "lagged_corr",
+  "MAX_LAG_WINDOWS": 2,
+  "ALPHA_TIME": 0.7,
+  "BETA_FREQ": 0.2,
+  "GAMMA_ADJ": 0.1,
+  "ADJ_TAU": 2.5,
+  "FREQ_DESC_USE_ACTIVITY": true,
+  "FREQ_DESC_ACTIVITY_K_MAD": 2.0,
+  "FREQ_DESC_NORMALIZE_SUBBAND": true,
+  "LINKAGE_METHOD": "average",
+  "N_GROUPS": null,
+  "DISTANCE_THRESHOLD": 0.55,
+  "CLUSTER_AGG": "median",
+  "FIG_DPI": 120,
+  "EVENT_SMOOTH_K": 7,
+  "EVENT_PEAK_K_MAD": 2.0,
+  "EVENT_PEAK_MIN_SEP_WINDOWS": 2,
+  "PEAK_MATCH_TOL_WINDOWS": 2,
+  "BOX_SMOOTH_ACTIVITY_K": 5,
+  "GMM_RANDOM_STATE": 0,
+  "GMM_MIN_EVENT_POSTERIOR": 0.5,
+  "GMM_SMOOTH_LABELS_K": 3,
+  "GMM_MERGE_GAP_WINDOWS": 2,
+  "GMM_MIN_EVENT_WINDOWS": 2,
+  "GMM_MIN_EVENT_AREA_Q": null,
+  "GMM_USE_LOG_DRIFT": false,
+  "DENOISE_METHOD": "hpss_percussive",
+  "USE_PCEN": true,
+  "NOISE_PROFILE_SEC": 2.0,
+  "SPEC_SUB_FLOOR": 0.1,
+  "HPSS_KERNEL_SIZE": 31,
+  "HPSS_POWER": 2.0,
+  "HPSS_MARGIN": [
+    1.0,
+    5.0
+  ],
+  "SPEC_FLOOR_MODE": "median",
+  "SPEC_FLOOR_STRENGTH": 1.0
+}

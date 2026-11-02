@@ -1,0 +1,26 @@
+{
+  "recording": "ARD_20211027_072000.wav",
+  "figures": [
+    {
+      "file": "ground_truth.png",
+      "description": "Expert reference regions and species legend",
+      "source_filename": "ARD_20211027_072000_rois(20261102-084133).png",
+      "sha256": "9eb2be7a9096c93ef519730c4178de5f3a1385cd4cddf7b0bd07ec79a7aecc4f",
+      "provenance": "Author-supplied original WABAD paper example; copied unchanged"
+    },
+    {
+      "file": "cluster_drifts.png",
+      "description": "Five grouped acoustic-drift trajectories",
+      "source_filename": "ARD_20211027_072000_cluster_drifts(1).png",
+      "sha256": "995fcf85253ebd9cf810bc0c6b2c1ef1dc081fc3f141942c28cb229778230809",
+      "provenance": "Author-supplied original WABAD paper example; copied unchanged"
+    },
+    {
+      "file": "predicted_boxes.png",
+      "description": "Candidate event boxes in cyan",
+      "source_filename": "ARD_20211027_072000_spectrogram_boxes(3).png",
+      "sha256": "060c5f7eba4516c9f84f72505fd7973f9598dd5c38376332ac47028ad3a1cfd7",
+      "provenance": "Author-supplied original WABAD paper example; copied unchanged"
+    }
+  ]
+}

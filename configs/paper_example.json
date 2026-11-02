@@ -1,0 +1,9 @@
+{
+  "audio_file": "../data/WABAD/ARD/recordings/ARD_20211027_072000.wav",
+  "annotation_file": "../data/WABAD/ARD/annotations/ARD_20211027_072000.txt",
+  "output_dir": "../outputs/paper_example",
+  "save_plots": true,
+  "save_drift_plots": true,
+  "resume": true,
+  "parameters": {}
+}
